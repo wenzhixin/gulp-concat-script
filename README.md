@@ -21,7 +21,7 @@ gulp.task("scripts", function() {
 }); 
 ```
 
-config.js:
+`config.js:`
 ```javascript
 document.write('<script src="libs/jquery.js"></script>');
 document.write('<script src="libs/bootstrap.js"></script>');
