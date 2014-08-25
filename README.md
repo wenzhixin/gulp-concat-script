@@ -1,7 +1,7 @@
 gulp-concat-script
 ==============
 
-Parses js files, finds `document.write('<script src='*.js'></script>')` directive and includes these files.
+Parses js files, finds `document.write('<script src="*.js"></script>')` directive and includes these files.
 
 USAGE
 -----
