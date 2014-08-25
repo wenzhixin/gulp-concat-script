@@ -1,10 +1,15 @@
-gulp-concat-script
-==============
+# gulp-concat-script
 
 Parses js files, finds `document.write('<script src="*.js"></script>')` directive and includes these files.
 
-USAGE
------
+## Installation
+
+Install package with NPM and add it to your development dependencies:
+
+`npm install --save-dev gulp-concat-script
+
+## Usage
+
 ```javascript
 var gulp = require('gulp'),
     concatScript = require('gulp-concat-script');
@@ -23,7 +28,11 @@ document.write('<script src="libs/bootstrap.js"></script>');
 document.write('<script src="js/app.js"></script>');
 ```
 
-KNOWN ISSUES
-------------
+## Know issues
+
 1. Cannot process minified files
 2. Cannot process urls
+
+## License
+
+[The MIT Lincense](https://github.com/wenzhixin/gulp-concat-script/blob/master/LICENSE)
