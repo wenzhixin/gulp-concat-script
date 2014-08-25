@@ -1,0 +1,25 @@
+{
+  "name": "gulp-concat-script",
+  "version": "1.0.0",
+  "description": "Parses js files, finds `document.write('<script src='*.js'></script>')` directive and includes these files.",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "through2": "0.4.X",
+    "gulp-util": "2.2.X"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenzhixin/gulp-concat-script.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "script",
+    "concat"
+  ],
+  "author": {
+    "name": "wenzhixin",
+    "url": "http://wenzhixin.net.cn"
+  },
+  "license": "THE MIT Lincense"
+}
