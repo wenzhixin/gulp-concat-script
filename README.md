@@ -6,7 +6,7 @@ Parses js files, finds `document.write('<script src="*.js"></script>')` directiv
 
 Install package with NPM and add it to your development dependencies:
 
-`npm install --save-dev gulp-concat-script
+`npm install --save-dev gulp-concat-script`
 
 ## Usage
 
