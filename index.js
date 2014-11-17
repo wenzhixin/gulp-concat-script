@@ -20,9 +20,8 @@ module.exports = function (opt){
             parsed = false;
 
         lines.forEach(function (line) {
-            var m = line.match(/src="(.*.js)"/);
+            var m = line.match(/src="(.*.js)"/) || line.match(/^ *'(.*)',?$/);
             if (!m || !fs.existsSync(m[1])) {
-                newLines.push(line);
                 return;
             }
             newLines.push(fs.readFileSync(m[1]).toString());
